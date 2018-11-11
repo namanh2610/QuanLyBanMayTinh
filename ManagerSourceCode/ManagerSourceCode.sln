@@ -3,7 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2050
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FITHAUI.SimulationATMSystem.DALs", "FITHAUI.SimulationATMSystem.DALs\FITHAUI.SimulationATMSystem.DALs.csproj", "{24034B6F-FF7C-43D6-8A62-40EA7BDFB996}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FITHAUI.SimulationATMSystem.BULs", "FITHAUI.SimulationATMSystem.BULs\FITHAUI.SimulationATMSystem.BULs.csproj", "{E7C24A0D-9004-4023-8C0C-5414F35D1B1F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FITHAUI.SimulationATMSystem.DTOs", "FITHAUI.SimulationATMSystem.DTOs\FITHAUI.SimulationATMSystem.DTOs.csproj", "{223C75EC-E90A-4A67-B652-4D46645076E8}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManagerSourceCode", "ManagerSourceCode\ManagerSourceCode.csproj", "{F3482047-B3DC-4AC1-90FC-69FDD359B8AC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FITHAUI.SimulationATMSystem.UI", "FITHAUI.SimulationATMSystem.UI\FITHAUI.SimulationATMSystem.UI.csproj", "{9B338137-A0B5-4ECA-A53F-2BE6479D6224}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +19,26 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{24034B6F-FF7C-43D6-8A62-40EA7BDFB996}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24034B6F-FF7C-43D6-8A62-40EA7BDFB996}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24034B6F-FF7C-43D6-8A62-40EA7BDFB996}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24034B6F-FF7C-43D6-8A62-40EA7BDFB996}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7C24A0D-9004-4023-8C0C-5414F35D1B1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7C24A0D-9004-4023-8C0C-5414F35D1B1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7C24A0D-9004-4023-8C0C-5414F35D1B1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7C24A0D-9004-4023-8C0C-5414F35D1B1F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{223C75EC-E90A-4A67-B652-4D46645076E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{223C75EC-E90A-4A67-B652-4D46645076E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{223C75EC-E90A-4A67-B652-4D46645076E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{223C75EC-E90A-4A67-B652-4D46645076E8}.Release|Any CPU.Build.0 = Release|Any CPU
 		{F3482047-B3DC-4AC1-90FC-69FDD359B8AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{F3482047-B3DC-4AC1-90FC-69FDD359B8AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F3482047-B3DC-4AC1-90FC-69FDD359B8AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F3482047-B3DC-4AC1-90FC-69FDD359B8AC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B338137-A0B5-4ECA-A53F-2BE6479D6224}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B338137-A0B5-4ECA-A53F-2BE6479D6224}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B338137-A0B5-4ECA-A53F-2BE6479D6224}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B338137-A0B5-4ECA-A53F-2BE6479D6224}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
